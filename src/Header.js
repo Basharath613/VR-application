@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => (
   <header>
-    <h1>Welcome to Vancouver City Center</h1>
+    <h1>hi to Vancouver City Center</h1>
   </header>
 );
 
