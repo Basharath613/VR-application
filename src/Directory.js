@@ -1,6 +1,4 @@
 
-// Directory.js
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Movie from './Movie';
@@ -15,9 +13,9 @@ const Directory = () => (
       <Link to="/movie" className="shop-link">
         <Movie />
       </Link>
-      <Link to="/grocery" className="shop-link">
+      <a href="https://alifeasaparna.itch.io/shopping-mall-vr" className="shop-link" target="_blank" rel="noopener noreferrer">
         <Grocery />
-      </Link>
+      </a>
       <Link to="/restaurant" className="shop-link">
         <Restaurant />
       </Link>
@@ -26,3 +24,4 @@ const Directory = () => (
 );
 
 export default Directory;
+
